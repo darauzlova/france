@@ -1,0 +1,57 @@
+.box{
+	
+	background-color: black;
+	text-align: center;
+	font-size: 600% ;
+	color: white;
+	font-family: cursive;
+	margin-bottom: 20%;
+}
+
+#image{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+ul{
+	font-size: 300% ;
+	color: black;
+	font-family: cursive;
+}
+
+.fr{
+	width: 30%;
+	height: 25%;
+	margin-bottom: 3%;
+
+ -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.fr:hover{
+	width: 35%;
+	height: 30%;
+	-webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+.but{
+	color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: black;
+  box-shadow: 0 -3px grey inset;
+  transition: 0.2s;
+  width: 30%;
+  height: 50%;
+margin-left: 40%;
+}
+.but:hover{
+	background-color: grey;
+}
